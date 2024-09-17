@@ -19,8 +19,8 @@ class _Buttons1State extends State<Buttons1> {
               TextButton(onPressed: () {}, child: const Text('Button1')),
               TextButton(
                   style: ButtonStyle(
-                      textStyle:
-                          WidgetStateProperty.all(const TextStyle(fontSize: 32)),
+                      textStyle: WidgetStateProperty.all(
+                          const TextStyle(fontSize: 32)),
                       foregroundColor: WidgetStateProperty.all(Colors.cyan)),
                   onPressed: () {},
                   child: const Text('Button2')),

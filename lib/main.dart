@@ -1,5 +1,8 @@
-import 'package:demoproject/task/bg.dart';
-import 'package:demoproject/task/registration.dart';
+
+import 'package:demoproject/task/registration%20blue/page3.dart';
+import 'package:demoproject/task/registration%20red/page1.dart';
+import 'package:demoproject/task/registration%20red/page2.dart';
+import 'package:demoproject/task/registration%20red/page3.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,7 +36,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Registration(),
+      home: const RegisterRed(),
     );
   }
 }

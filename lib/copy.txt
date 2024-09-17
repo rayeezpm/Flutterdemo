@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+
+class Homeblue extends StatefulWidget {
+  const Homeblue({super.key});
+
+  @override
+  State<Homeblue> createState() => _HomeblueState();
+}
+
+class _HomeblueState extends State<Homeblue> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Container(
+          width: double.infinity,
+          height: double.infinity,
+          decoration: const BoxDecoration(
+              gradient:
+                  RadialGradient(colors: [Colors.blue, Colors.lightBlue]))),
+    );
+  }
+}
