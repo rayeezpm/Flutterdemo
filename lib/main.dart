@@ -1,7 +1,4 @@
 
-import 'package:demoproject/task/registration%20blue/page3.dart';
-import 'package:demoproject/task/registration%20red/page1.dart';
-import 'package:demoproject/task/registration%20red/page2.dart';
 import 'package:demoproject/task/registration%20red/page3.dart';
 import 'package:flutter/material.dart';
 

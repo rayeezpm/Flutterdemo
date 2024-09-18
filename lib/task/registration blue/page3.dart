@@ -12,7 +12,7 @@ class _RegisterBlueState extends State<RegisterBlue> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 0, 51, 139),
-      body: Container(
+      body: SizedBox(
         height: double.infinity,
         width: double.infinity,
         child: Container(

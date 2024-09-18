@@ -69,7 +69,7 @@ class _RegisterRedState extends State<RegisterRed> {
                           const TextField(
                             decoration: InputDecoration(
                                 label: Text(
-                                  'Username',
+                                  'Full Name',
                                   style: TextStyle(
                                       color: Colors.redAccent, fontSize: 22),
                                 ),

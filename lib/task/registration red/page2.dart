@@ -14,7 +14,7 @@ class _WelcomeRedState extends State<WelcomeRed> {
       body: Container(
         height: double.infinity,
         width: double.infinity,
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
             gradient: LinearGradient(colors: [Colors.red, Colors.black])),
         child: SingleChildScrollView(
             child: Padding(
@@ -29,41 +29,41 @@ class _WelcomeRedState extends State<WelcomeRed> {
                     children: [
                       IconButton(
                           onPressed: () {},
-                          icon: Icon(
+                          icon: const Icon(
                             Icons.more_horiz,
                             color: Colors.white,
                             size: 40,
                           ))
                     ],
                   )),
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               Image.asset(
                 'assets/db.png',
                 scale: 6,
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
-              Text(
+              const Text(
                 'FITNESS CLUB',
                 style: TextStyle(
                     color: Colors.white,
                     fontSize: 30,
                     fontWeight: FontWeight.w400),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
-              Text(
+              const Text(
                 'WELCOME BACK',
                 style: TextStyle(
                     color: Colors.white,
                     fontSize: 40,
                     fontWeight: FontWeight.w500),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 100,
               ),
               Padding(
@@ -74,46 +74,46 @@ class _WelcomeRedState extends State<WelcomeRed> {
                           const Size(double.infinity, 60),
                         ),
                         side: WidgetStateProperty.all(
-                            BorderSide(color: Colors.white))),
+                            const BorderSide(color: Colors.white))),
                     onPressed: () {},
-                    child: Padding(
-                      padding: const EdgeInsets.only(top: 10, bottom: 10),
+                    child: const Padding(
+                      padding: EdgeInsets.only(top: 10, bottom: 10),
                       child: Text(
                         'SIGN IN',
                         style: TextStyle(color: Colors.white, fontSize: 33),
                       ),
                     )),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 25, right: 25),
                 child: OutlinedButton(
                     style: ButtonStyle(
-                        backgroundColor: WidgetStatePropertyAll(Colors.white),
+                        backgroundColor: const WidgetStatePropertyAll(Colors.white),
                         minimumSize: WidgetStateProperty.all(
                           const Size(double.infinity, 60),
                         ),
                         side: WidgetStateProperty.all(
-                            BorderSide(color: Colors.white))),
+                            const BorderSide(color: Colors.white))),
                     onPressed: () {},
-                    child: Padding(
-                      padding: const EdgeInsets.only(top: 10, bottom: 10),
+                    child: const Padding(
+                      padding: EdgeInsets.only(top: 10, bottom: 10),
                       child: Text(
                         'SIGN UP',
                         style: TextStyle(color: Colors.black, fontSize: 33),
                       ),
                     )),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 120,
               ),
-              Text(
+              const Text(
                 'Login with social media',
                 style: TextStyle(color: Colors.white, fontSize: 22),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Row(
@@ -125,7 +125,7 @@ class _WelcomeRedState extends State<WelcomeRed> {
                         'assets/insta.png',
                         scale: 15,
                       )),
-                  SizedBox(
+                  const SizedBox(
                     width: 5,
                   ),
                   IconButton(
@@ -134,7 +134,7 @@ class _WelcomeRedState extends State<WelcomeRed> {
                         'assets/twi.png',
                         scale: 15,
                       )),
-                  SizedBox(
+                  const SizedBox(
                     width: 5,
                   ),
                   IconButton(
@@ -143,7 +143,7 @@ class _WelcomeRedState extends State<WelcomeRed> {
                         'assets/fb.png',
                         scale: 15,
                       )),
-                  SizedBox(
+                  const SizedBox(
                     width: 5,
                   ),
                 ],
