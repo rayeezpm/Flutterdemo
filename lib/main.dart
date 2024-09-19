@@ -1,7 +1,21 @@
 
+// ignore_for_file: unused_import
+
+import 'package:demoproject/task/registration%20blue/page1.dart';
+import 'package:demoproject/task/registration%20blue/page2.dart';
+import 'package:demoproject/task/registration%20blue/page3.dart';
+import 'package:demoproject/task/registration%20orange/page1.dart';
+import 'package:demoproject/task/registration%20orange/page2.dart';
+import 'package:demoproject/task/registration%20red/page1.dart';
 import 'package:demoproject/task/registration%20red/page3.dart';
-import 'package:demoproject/task/signup.dart';
+import 'package:demoproject/task/registration.dart';
+import 'package:demoproject/task/registration1.dart';
 import 'package:demoproject/task/signuporange.dart';
+import 'package:demoproject/task/welcomelogin.dart';
+import 'package:demoproject/widget/checkbox.dart';
+import 'package:demoproject/widget/listtile.dart';
+import 'package:demoproject/widget/listview1.dart';
+import 'package:demoproject/widget/radio.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -35,7 +49,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Signup(),
+      home: const CheckBox1(),
     );
   }
 }

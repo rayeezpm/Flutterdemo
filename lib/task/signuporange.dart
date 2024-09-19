@@ -135,7 +135,7 @@ class _SignupOrangeState extends State<SignupOrange> {
                       borderRadius: BorderRadius.circular(15)),
                   child: TextButton(
                     style: ButtonStyle(
-                      minimumSize: MaterialStateProperty.all(const Size(double.infinity, 70)),
+                      minimumSize: WidgetStateProperty.all(const Size(double.infinity, 70)),
                     ),
                     onPressed: _submitForm,
                     child: const Text(
